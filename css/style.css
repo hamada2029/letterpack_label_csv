@@ -1,0 +1,150 @@
+
+
+:root{
+    --btn-color1: #6b5b95; /*black*/
+    --btn-color2: #9487b6;  /*#444444*/
+    --btn-color3: #6b5b95;  /*black*/
+    --btn-color4: #9487b6;  /*#444444*/
+    --btn-color5: #6b5b95;  /*black*/
+    --adv-color: #8677ac;  /*gray*/
+    --base-color: #e9e6f0; /*gainsboro*/
+    --th-color: #6b5b95; /*black*/
+    --textarea-color: #f7f6f9; /*whitesmoke*/
+}
+
+body{
+    position: absolute;
+    background-color: whitesmoke;
+    width: auto;
+    height: 100%;
+    margin: 0;
+}
+
+#base_div{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    background-color: var(--base-color);
+    visibility: hidden;
+}
+
+#pre_td, #pre_td a{
+    color: gray;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+
+#adv{
+    position: fixed;
+    bottom: 15%;
+    width: 100%;
+    height: 7%;
+    background-color: var(--adv-color);
+}
+#adv a{
+    color: white;
+    font-weight: bold;
+}
+#adv_text{
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.5vh;
+    text-align: center;
+}
+
+
+table{
+    font-size: 1vw;
+    width: 150vw;
+}
+th{
+    color: var(--th-color);
+}
+
+textarea{
+    background-color: var(--textarea-color);
+    resize: none;
+    border: none;
+}
+textarea.narrow{
+    width: 8vw;
+}
+textarea.wide{
+    width: 19vw;
+}
+
+
+#footspace{
+    height: 15%;
+}
+
+#foot1{
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+
+
+#file1{
+    visibility: hidden;
+}
+.f_btn{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+#foot_title{
+    left: 0;
+    width: 35%;
+    background-color: var(--btn-color1);
+    text-align: left;
+}
+#load_btn{
+    right: 45%;
+    width: 20%;
+    background-color: var(--btn-color2);
+}
+#make_btn{
+    right: 25%;
+    width: 20%;
+    background-color: var(--btn-color3);
+}
+#save_btn{
+    right: 5%;
+    width: 20%;
+    background-color: var(--btn-color4);
+}
+#help_btn{
+    right: 0%;
+    width: 5%;
+    background-color: var(--btn-color5);
+}
+button:active{
+    opacity: 0.5;
+}
+
+
+#mask{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    opacity: 0.7;
+    visibility: hidden;
+}
+
